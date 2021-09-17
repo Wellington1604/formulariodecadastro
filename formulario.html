@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" scr="js/bootstrap.js"></script>
+
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="col-10">
+                <form>
+                    <div class="mb-3">
+                        <label for="Nome" class="form-label">Nome:</label>
+                        <input placeholder="insira seu nome" class="form-control">                        
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Masculino</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Feminino</label>
+                      </div>                    
+                    <div class="mb-3">
+                        <label for="Nome" class="form-label">E-mail:</label>
+                        <input placeholder="insira seu melhor e-mail" class="form-control">
+                    </div>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecione seu curso:</option>
+                        <option value="1">HTML</option>
+                        <option value="2">CSS</option>
+                        <option value="3">JavaScript</option>
+                    </select>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Envie sua foto:</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <div class="row mt-3">
+                        <label class="form-label col-6">Gostaria de receber notificações por e-mail?</label>
+                        <div class="col-6">
+                            <div class="form-check form-switch">
+                                <input id="news" class="form-check-input" type="checkbox" name="promo">
+                                <label for="news" class="form-check-label">Receber notificações</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                      </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+</body>
